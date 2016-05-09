@@ -1,0 +1,280 @@
+﻿/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+
+    ========================================================  */
+
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+
+}
+
+
+h1 {
+  color: white;
+
+}
+h2 {
+    padding-top:50px;
+    text-transform: uppercase;
+    padding-bottom:20px;
+    color:#000;
+}
+h3 {
+    padding-top:30px;
+     padding-bottom:40px;
+     text-align:center;
+     font-weight:900;
+     text-transform:uppercase;
+}
+section {
+    padding-top:30px;
+    padding-bottom:40px;
+}
+.just-pad {
+    padding-bottom:20px;
+    padding-top:30px;
+}
+
+p {
+    padding:10px 0px;
+}
+/*=====================================
+  NAVBAR STYLES
+    ===================================*/
+
+.logo-custom {
+     max-height:30px
+}
+#menu {
+  height: 80px;
+    background-color:#4bb777;
+    color:#fff;
+    font-size:12px;
+    font-weight:900;
+    letter-spacing:1px;
+    color:white;
+
+}
+.navbar-inverse {
+border-color:white;
+}
+
+.home-mail {
+    font-size:12px;
+    font-weight:normal;
+    padding-left:5px;
+}
+/*=====================================
+  HEADERS STYLES
+    ===================================*/
+
+
+.header-sec {
+
+    padding-top: 10px;
+    padding-bottom: 100px;
+    background: url(../img/Japon.jpg) no-repeat center center;
+padding: 0;
+-webkit-background-size: cover;
+background-size: cover;
+ color:#white;
+ background-attachment:fixed;
+}
+.header-sec .overlay{
+
+    background:rgba(255, 255, 255, 0.5); (8, 134, 74);
+min-height: 500px;
+}
+    .header-sec h2 {
+
+        color:white;
+        padding-top:100px;
+}
+
+.header-sec p {
+    color:black;
+    padding-top:40px;
+    padding-bottom: 20px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+
+/*=====================================
+  ADVANTAGES STYLES
+    ===================================*/
+#Advantages {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*=====================================
+  PRICING STYLES
+    ===================================*/
+
+
+.price-sec {
+
+        padding-top: 30px;
+        padding-bottom: 40px;
+        color: white;
+
+
+}
+.price-sec span {
+            font-size:90px;
+}
+
+.single-price {
+
+color: white;
+        background-color:rgba(134, 8, 8,1);
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding:20px;
+        height: 150px;
+}
+
+.single-price:hover {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+  background-color:grey;
+    text-decoration: underline;
+}
+
+.multi-price {
+        background-color:#4bb777;
+        padding:20px;
+        height: 150px;
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%
+}
+.multi-price:hover {
+  background-color:yellow;
+  padding:20px;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+  text-decoration: underline;
+}
+
+
+/*=====================================
+  FORM CV STYLES
+    ===================================*/
+.form {
+      border-radius: 5px;
+      padding: 0;
+      overflow: hidden;
+      width: 240px;
+
+    }
+.input {
+      border-radius: 5px;
+      width: 375px;
+      height: 100px;
+ }
+
+.btn-CV {
+  border: 0;
+background: #648880;
+padding: 11px 30px;
+font-size: 14px;
+}
+
+.btn-CV:hover {
+  background: #77a198;
+}
+
+
+
+
+#experience {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+
+  /*=====================================
+    VOLUNTEER STYLES
+      ===================================*/
+
+  .volunteer-sec {
+
+      padding-top: 10px;
+      padding-bottom: 100px;
+      background: url(../img/Japon.jpg) no-repeat center center;
+  padding: 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+   color:#white;
+   background-attachment:fixed;
+  }
+
+
+/*=====================================
+  TESTIMONIALS STYLES
+    ===================================*/
+
+
+.testi-sec {
+
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background: url(../img/testi.jpg) no-repeat center center;
+padding: 0;
+-webkit-background-size: cover;
+background-size: cover;
+ color:#fff;
+ background-attachment:fixed;
+
+}
+.testi-sec .overlay{
+    background:rgba(8, 134, 74, 0.80);
+min-height: 300px;
+}
+    .testi-sec h3 {
+        color:#fff;
+        padding-top:60px;
+        padding-bottom:30px;
+    }
+
+.testi-sec h4 {
+    line-height:35px;
+}
+
+
+
+  /*=====================================
+  CONTACT STYLES
+    ===================================*/
+.contact {
+    font-size:20px;
+    line-height:35px;
+}
+ /*=====================================
+  FOOTER STYLES
+    ===================================*/
+
+ .myfooter {
+    background-color:#4bb777;
+    padding:5px 40px 5px 40px;
+    color:#fff;
+    font-size:14px;
+    text-align:right;
+}
