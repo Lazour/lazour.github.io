@@ -1,4 +1,4 @@
-﻿/*=============================================================
+/*=============================================================
     Authour URI: www.binarytheme.com
     License: Commons Attribution 3.0
 
@@ -19,10 +19,6 @@ body {
 }
 
 
-h1 {
-  color: white;
-
-}
 h2 {
     padding-top:50px;
     text-transform: uppercase;
@@ -123,9 +119,9 @@ min-height: 500px;
 
 
 .price-sec {
-
+        height: 250px;
         padding-top: 30px;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
         color: white;
 
 
@@ -218,7 +214,7 @@ font-size: 14px;
 
       padding-top: 10px;
       padding-bottom: 100px;
-      background: url(../img/Japon.jpg) no-repeat center center;
+      background-color: #8dafca;
   padding: 0;
   -webkit-background-size: cover;
   background-size: cover;
